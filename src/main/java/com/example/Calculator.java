@@ -17,6 +17,10 @@ public class Calculator {
         return a - b;
     }
 
+    public int squarePublic(int a) {
+        return square(a);
+    }
+
     private int square(int a) {
         return a * a;
     }
