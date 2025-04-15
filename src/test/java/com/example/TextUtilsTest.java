@@ -3,7 +3,7 @@ package com.example;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-class StringUtilsTest {
+class TextUtilsTest {
     @Test
     void testReverse() {
         StringUtils utils = new StringUtils();
