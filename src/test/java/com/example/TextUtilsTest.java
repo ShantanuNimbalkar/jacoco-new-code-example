@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class TextUtilsTest {
     @Test
     void testReverse() {
-        StringUtils utils = new StringUtils();
+        TextUtils utils = new TextUtils();
         assertEquals("olleh", utils.reverse("hello"));
     }
 }
