@@ -1,0 +1,325 @@
+{
+    "gammaAccess": {
+        "url": "",
+        "token": ""
+    },
+    "repositories": [
+        {
+            "dataDir": "",
+            "repository": {
+                "uid": "05d4ecdd800304b9096dfaa077567d07",
+                "projectName": "jacoco-new-scanConfig",
+                "languages": [
+                    "JAVA",
+                    "JAVASCRIPT",
+                    "HTML"
+                ],
+                "sources": {
+                    "baseDir": "",
+                    "exclusions": {
+                        "java": [
+                            "(?i)(test|generated|mock|thirdparty|third-party|3rd-party|3rdparty|external)"
+                        ],
+                        "javascript": [
+                            "node_modules",
+                            ".min.js",
+                            "dist",
+                            "external",
+                            "assets",
+                            "gulp",
+                            "grunt",
+                            "libs",
+                            "-bundle.js",
+                            ".bundle.js",
+                            "swagger-ui",
+                            ".config.js",
+                            "-config.js",
+                            "UNKNOWN_FILE",
+                            ".git",
+                            ".ebextensions",
+                            "test",
+                            ".lib",
+                            ".library",
+                            ".zip"
+                        ],
+                        "html": [
+                            "test"
+                        ]
+                    }
+                }
+            },
+            "settings": {
+                "JAVA": {
+                    "additionalOptions": [],
+                    "includePaths": []
+                },
+                "JAVASCRIPT": {
+                    "additionalOptions": [],
+                    "includePaths": []
+                },
+                "HTML": {
+                    "additionalOptions": [],
+                    "includePaths": []
+                }
+            },
+            "modules": {
+                "CODE_ISSUES": [
+                    {
+                        "language_name": "JAVA",
+                        "name": "gamma_java",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    },
+                    {
+                        "language_name": "JAVASCRIPT",
+                        "name": "gamma_js",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    },
+                    {
+                        "language_name": "JAVASCRIPT",
+                        "name": "jshint",
+                        "enabled": false,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    },
+                    {
+                        "language_name": "all",
+                        "name": "sca",
+                        "enabled": false,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "language_name": "JAVA",
+                        "name": "embold_aux",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "language_name": "JAVASCRIPT",
+                        "name": "embold_aux",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "language_name": "HTML",
+                        "name": "embold_aux",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "language_name": "all",
+                        "name": "gamma_generic",
+                        "enabled": false,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "language_name": "JAVASCRIPT",
+                        "name": "eslint",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    },
+                    {
+                        "language_name": "JAVA",
+                        "name": "pmd",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "javaVersion",
+                                    "type": "text",
+                                    "value": "1.8",
+                                    "required": false
+                                },
+                                {
+                                    "name": "ruleSets",
+                                    "type": "text",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "language_name": "HTML",
+                        "name": "htmlhint",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    }
+                ],
+                "RELEVANCE": [
+                    {
+                        "language_name": "all",
+                        "name": "relevance",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "mode",
+                                    "value": "git"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "COVERAGE": [
+                    {
+                        "language_name": "JAVA",
+                        "name": "clover",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "language_name": "JAVASCRIPT",
+                        "name": "istanbul",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "language_name": "JAVA",
+                        "name": "jacoco",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "binaryReportPath",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": false
+                                },
+                                {
+                                    "name": "isRecursive",
+                                    "type": "text",
+                                    "value": "true",
+                                    "required": false
+                                },
+                                {
+                                    "name": "xmlReportPath",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": false
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "UNIT_TESTS": [
+                    {
+                        "language_name": "JAVA",
+                        "name": "junit",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "EXT_REPORT_PROCESSOR": [
+                    {
+                        "language_name": "all",
+                        "name": "ext_report_processor",
+                        "enabled": false,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
