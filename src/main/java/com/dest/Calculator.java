@@ -1,4 +1,4 @@
-package com.example;
+package com.dest;
 
 public class Calculator {
     public int multiply(int a, int b) {
@@ -22,18 +22,13 @@ public class Calculator {
     }
 
     private int square(int a) {
+        int c = a*a;
         return a * a;
     }
 
 
     public int subtractwith(int a, int b) {
         // System.out.println("Hello");
-        return a - b;
-    }
-
-    public int subtractwithout(int a, int b) {
-        int c = a - b;
-        System.out.println("Hello");
         return a - b;
     }
 }
