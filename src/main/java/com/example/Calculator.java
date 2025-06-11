@@ -24,5 +24,8 @@ public class Calculator {
     private int square(int a) {
         return a * a;
     }
+    public int getDouble(int a) {
+        return a * 2;
+    }
 }
 
