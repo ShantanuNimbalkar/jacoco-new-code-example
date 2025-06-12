@@ -24,6 +24,8 @@ public class Calculator {
     private int square(int a) {
         return a * a;
     }
+    // @GET
+    // @Path("/getProgressNow")
     public int getDouble(int a) {
         return a * 2;
     }
