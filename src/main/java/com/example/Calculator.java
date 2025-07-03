@@ -14,6 +14,7 @@ public class Calculator {
     }
 
     public int subtract(int a, int b) {
+        System.out.println("Subtract");
         return a - b;
     }
 
