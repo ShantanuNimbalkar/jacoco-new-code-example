@@ -18,6 +18,7 @@ public class Calculator {
     }
 
     public int squarePublic(int a) {
+        System.out.println("Hello");
         return square(a);
     }
 
