@@ -30,5 +30,11 @@ void testSquarePublic() {
     Calculator calc = new Calculator();
     assertEquals(16, calc.squarePublic(4));  // Square method tested via squarePublic
 }
+
+@Test
+    void testSubtract1() {
+        Calculator calc = new Calculator();
+        assertEquals(1, calc.subtractwith(3, 2));
+    }
 }
 
