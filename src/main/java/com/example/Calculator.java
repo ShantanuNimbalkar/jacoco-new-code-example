@@ -15,10 +15,13 @@ public class Calculator {
 
     public int subtract(int a, int b) {
         System.out.println("Subtract");
+        int ijgf= 123;
+        System.out.println("Hello");
         return a - b;
     }
 
     public int squarePublic(int a) {
+         System.out.println("Subtract");
         return square(a);
     }
 
