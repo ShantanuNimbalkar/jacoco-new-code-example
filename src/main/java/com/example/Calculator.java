@@ -15,6 +15,8 @@ public class Calculator {
 
     public int subtract(int a, int b) {
         System.out.println("Subtract");
+           System.out.println("Subtract");
+        int unusq = 123;
         return a - b;
     }
 
