@@ -5,5 +5,6 @@ public class Logger {
         System.out.println("LOG: " + message);
          System.out.println("LOG: " + message);
         System.out.println("LOG: " + message);
+         System.out.println("LOG: " + message);
     }
 }
