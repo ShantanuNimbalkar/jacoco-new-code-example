@@ -23,6 +23,15 @@ public class Calculator {
 		}
 	}
 
+    public void process2() {
+		try {
+			PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("out.txt", true)));
+			out.println("the text");
+		} catch (IOException e) {
+			logger.error("Resource is not closed anywhere.", e);
+		}
+	}
+
     public int divide(int a, int b) {
         if (b == 0) throw new IllegalArgumentException("Division by zero");
         return a / b;
