@@ -1,5 +1,10 @@
 package com.example;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+
 public class Calculator {
     public int multiply(int a, int b) {
         return a * b;
@@ -7,6 +12,16 @@ public class Calculator {
     public int add(int a, int b) {
         return a + b;
     }
+
+    public void process1() {
+		try {
+			PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("out.txt", true)));
+			out.println("the text");
+			out.close(); // close() is in try clause
+		} catch (IOException e) {
+			logger.error("resource is closed in try block", e);
+		}
+	}
 
     public int divide(int a, int b) {
         if (b == 0) throw new IllegalArgumentException("Division by zero");
