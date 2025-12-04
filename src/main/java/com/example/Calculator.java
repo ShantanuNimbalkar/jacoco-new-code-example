@@ -49,5 +49,20 @@ public class Calculator {
     private int square(int a) {
         return a * a;
     }
+
+	 public int subtract23(int a, int b) {
+        System.out.println("Subtract");
+        return a - b;
+    }
+
+	 public int subtract34(int a, int b) {
+        System.out.println("Subtract");
+        return a - b;
+    }
+
+	 public int subtract56(int a, int b) {
+        System.out.println("Subtract");
+        return a - b;
+    }
 }
 
