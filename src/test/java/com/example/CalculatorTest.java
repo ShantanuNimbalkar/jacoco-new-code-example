@@ -15,6 +15,7 @@ class CalculatorTest {
     @Test
     void testSubtract() {
         Calculator calc = new Calculator();
+        System.out.println("Hello");
         assertEquals(1, calc.subtract(3, 2));
     }
 
