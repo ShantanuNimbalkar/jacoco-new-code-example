@@ -7,6 +7,7 @@ import java.io.PrintWriter;
 
 public class Calculator {
     public int multiply(int a, int b) {
+		System.out.println("Hello");
         return a * b;
     }
     public int add(int a, int b) {
