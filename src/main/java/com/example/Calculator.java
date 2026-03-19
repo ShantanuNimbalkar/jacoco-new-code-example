@@ -1,4 +1,4 @@
-package com.example;
+// package com.example;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -7,6 +7,9 @@ import java.io.PrintWriter;
 
 public class Calculator {
     public int multiply(int a, int b) {
+		 Cipher c = new NullCipher();
+	//The ciphertext produced will be identical to the plaintext.
+		byte[] cipherText = c.doFinal(plainText);
         return a * b;
     }
     public int add(int a, int b) {
